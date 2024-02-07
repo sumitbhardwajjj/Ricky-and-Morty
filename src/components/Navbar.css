@@ -1,0 +1,40 @@
+/* Navbar container */
+nav {
+    padding: 2px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Logo */
+  nav img {
+    height: 50px;
+  }
+  
+  /* Navigation list */
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  /* Navigation items */
+  li {
+    margin-right: 20px;
+  }
+  
+  /* Links */
+  a {
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  /* Link hover effect */
+  a:hover {
+    color: #ffc107; /* Change to your desired hover color */
+  }
+  
