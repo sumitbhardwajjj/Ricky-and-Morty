@@ -73,3 +73,12 @@
   background-color: #ccc; /* Adjust color as needed */
   margin: 10px 0; /* Adjust spacing as needed */
 }
+
+@media(max-width:750px){
+  .character-card{
+    width: 60%;
+  }
+  .character-image{
+    width: 100%;
+  }
+}
